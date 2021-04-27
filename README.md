@@ -1,3 +1,5 @@
+
+![Gmail Scraper](https://repository-images.githubusercontent.com/362003989/6471fb80-a73c-11eb-91ff-092f753906c0 "Gmail Scraper")
 # GmailScraper
 Gets a list of emails from Gmail using the regular Gmail search then searches through those emails to find values using regular expressions.
 
