@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GmailScraper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">label:"Order Confirmation" subject:"Charity Gift Certificates" Donation OH item ID: 2020 </Value>
+    </Setting>
+    <Setting Name="FieldsToFind" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[{"Required":true,"Name":"OrderId","Regex":"Invoice ID:.+?(\\d+)","GroupNumber":1},{"Required":false,"Name":"GrandTotal","Regex":"Grand Total:.+?\\$([\\d\\.,]+)","GroupNumber":1},{"Required":false,"Name":"CharityDonations","Regex":"Total for Charity Donations:.+?\\$([\\d\\.,]+)","GroupNumber":1},{"Required":false,"Name":"Tip SKF","Regex":"Total tip for Special Kids:.+?\\$([\\d\\.,]+)","GroupNumber":1},{"Required":false,"Name":"CharityCards","Regex":"Total for Charity Cards:.+?\\$([\\d\\.,]+)","GroupNumber":1},{"Required":false,"Name":"Physical cards","Regex":"Total for Physical Cards:.+?\\$([\\d\\.,]+)","GroupNumber":1},{"Required":false,"Name":"Redemption Codes","Regex":"Total for Redemption Codes:.+?\\$([\\d\\.,]+)","GroupNumber":1},{"Required":false,"Name":"Shipping","Regex":"Shipping \\&amp; Handling:.+?\\$([\\d\\.,]+)","GroupNumber":1}]
+</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
